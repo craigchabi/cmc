@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/styles.css">
+      <link rel="stylesheet" href="js/bootstrap.js">
+      <link rel="stylesheet" href="js/script.js">
+      <title>Pizza Palace</title>
+   </head>
+   <body>
+      <div class="container">
+         <div class="jumbotron ">
+            <h1>Welcome to Pizza Palace.</h1>
+            <h1 class="gold-text text-uppercase font-weight-bold">The Best Pizza Place in Town.</h1>
+         </div>
+         <div class="row about jumbotron">
+            <div class="col-md-6">
+               <div class="col-md-3"><img src="images/p2.jpg" alt=""></div>
+            </div>
+            <div class="col-md-6">
+               <h2>About Us</h2>
+               <p>Pizza Palace has been active for the past 10 years.</p>
+               <p>We have always thrived in out ability to produce quality and tasty Pizzas from our inception.</p>
+            </div>
+         </div>
+         <div class="order-section jumbotron">
+            <div class="order-intro">
+               <h2>Order Here</h2>
+               <br>
+               <h2>Order your Pizza and we will deliver it to you door step!</h2>
+               <br>
+            </div>
+            <div class="row">
+               <div class="col-sm-5 ">
+                  <form action>
+                     <label for="flavor">Select Your Flavor</label>
+                     <br>
+                     <select name="flavor" id="pflavor">
+                        <option value="0">**Select Flavor here**</option>
+                        <option value="hawaiian">Hawaiian Pizza</option>
+                        <option value="peri">Peri-Peri Pizza</option>
+                        <option value="chicken">Chicken Tikka Pizza</option>
+                        <option value="bbq">BBQ Pizza</option>
+                        <option value="veg">Vegetable Pizza</option>
+                     </select>
+                     <br>
+                     <label for="size">Select Size</label>
+                     <br>
+                     <select name="size" id="psize">
+                        <option value="0">**Select Size Here**</option>
+                        <option value="small">Small--sh.600</option>
+                        <option value="med">Medium--sh.800</option>
+                        <option value="large">Large--sh.1000</option>
+                     </select>
+                     <br>
+                     <label for="crust">Select your preffered Crust</label>
+                     <br>
+                     <select name="crust" id="pcrust">
+                        <option value="0">**Select Crust Here**</option>
+                        <option value="thin">Thin--sh.150</option>
+                        <option value="stuffed">Stuffed--sh.200</option>
+                        <option value="crispy">Crispy--sh.200</option>
+                     </select>
+                     <br>
+                     <label for="tops">Select your toppings at sh.50</label>
+                     <br>
+                     <select name="tops" id="ptop" class="custom-select-md">
+                        <option value="0">**Select Topping Here**</option>
+                        <option value="sausage">Sausage</option>
+                        <option value="bac">Bacon</option>
+                        <option value="pins">Pinneaple</option>
+                        <option value="veg">Vegetable</option>
+                     </select>
+                     <br>
+                     <br>
+                     <button type="submit" class="proceed">Proceed</button>
+                  </form>
+               </div>
+               <div class="col-sm-1"></div>
+               <div class="col-sm-5">
+                  <div id="info">
+                     <p>Your order will be Processed and deliverd to your location</p>
+                     <p>Make sure you have the money either in cash or m-pesa since you are required to pay on delivery</p>
+                  </div>
+                  <div class="delivery">
+                     <p>Would you like your order deliverd?</p>
+                     <button type="submit" class="deliver">Delivery?</button>
+                  </div>
+                  <div class="deli-details">
+                        <form action="">
+                           <input type="text" placeholder=" Enter Name" id="name">
+                           <input type="name" placeholder="Enter Number" id="number">
+                           <input type="text" placeholder="Enter Location" id="location"> 
+                        </form>
+                        <button type="submit" id="finorder">Proceed</button>
+                  </div>
+                  <div class="checkout">
+                        <p id="finalmessage"></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="info jumbotron">
+            <h2>Contact Us</h2>
+            <div class="row">
+               <div class="col-md-6">
+                  <h3>Location</h3>
+                  <p>Pizza Palace</p>
+                  <p>Pangani Shopping Center</p>
+                  <p>Block B, Store No. 56</p>
+               </div>
+               <div class="col-md-6">
+                  <h3>Customer Service</h3>
+                  <p>craigcheve2001@gmail.com</p>
+                  <p>Mobile No: +254716569421</p>
+               </div>
+            </div>           
+            <div class="footer">
+                  <p>2020 Pizza Palace</p>
+            </div>          
+         </div>
+      </div>
+   </body>
+</html>

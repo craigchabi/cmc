@@ -1,0 +1,29 @@
+body{
+   background-color: beige;
+}
+.about img{
+   width: 500px;
+   height: 300px;
+}
+
+.jumbotron{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.order-section{
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.8);
+   color: white;
+}
+.delivery{
+   display: none;
+}
+.deli-details{
+   display: none;
+}
+.info{
+   text-align: center;
+}
+.footer{
+   text-align: center;
+}
